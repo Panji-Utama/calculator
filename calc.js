@@ -1,25 +1,20 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Get references to the HTML elements
   const resultElement = document.querySelector(".result");
   const buttons = document.querySelectorAll("button");
 
-  // Initialize the calculator state
   let currentInput = "";
   let currentOperator = "";
   let previousInput = "";
   let shouldReset = false;
 
-  // Helper function to update the result display
   function updateResult() {
     resultElement.textContent = currentInput;
   }
 
-  // Event listener for button clicks
   buttons.forEach((button) => {
     button.addEventListener("click", () => {
       const buttonText = button.textContent;
 
-      // Handle different button types
       if (buttonText === "AC") {
         // Clear all
         currentInput = "";
