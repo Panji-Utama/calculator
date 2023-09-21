@@ -4,7 +4,7 @@ body {
     background-image: linear-gradient(to bottom left, black, rgb(54, 52, 71));
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
-    margin: 0; /* Add this to remove default body margin */
+    margin: 0; 
     color: white;
     display: flex;
     flex-direction: column;
@@ -36,6 +36,7 @@ button:hover {
 
 .result {
     font-size: 3rem;
+    min-height: 100px;
 }
 
 #ac-button {
@@ -63,6 +64,7 @@ h5 {
     }
     .result {
         font-size: 8vw;
+        min-height: 80px;
     }
 }
 
@@ -74,6 +76,7 @@ h5 {
     }
     .result {
         font-size: 8vw;
+        min-height: 70px;
     }
     #ac-button {
         font-size: 6vw;
