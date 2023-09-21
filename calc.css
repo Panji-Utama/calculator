@@ -18,32 +18,36 @@ table {
     border-spacing: 10px;
 }
 
-td:hover {
-    background-color: rgb(15, 10, 63);
-}
-
-td {
+button {
+    color: white;
     font-size: 2rem;
     border: solid 1px white;
     text-align: center;
     vertical-align: middle;
-    width: 10px;
+    width: 80px;
     height: 100px;
     background-color: rgb(3, 0, 31);
-    margin: 10px;
     transition: 200ms ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(15, 10, 63);
 }
 
 .result {
     font-size: 3rem;
 }
 
-#ac {
+#ac-button {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    width: 100%;
     background-color: rgb(61, 61, 61);
     transition: 200ms ease-in-out;
 }
 
-#ac:hover {
+#ac-button:hover {
     background-color: rgb(99, 65, 65);
 }
 
